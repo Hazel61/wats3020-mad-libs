@@ -1,75 +1,51 @@
 // WATS 3020 Mad Libs Assignment
-//
 
-//
+// This JavaScript file takes input from the user and creates a Mad Lib of the Walt Whitman poem O Captain, My Captain.
 
+// The prompts to take input. Defaults are for testing.
+let honorific = prompt("Please enter an honorific title (e.g. Mister or Colonel).", "Prince");
 
-let honorific = prompt("Please enter an honorific title (e.g. Mister or Colonel).");
+let authorName = prompt("What is your full name?", "Bilbo Baggins");
 
+let adjective1 = prompt("Please enter an adjective", "hairy");
 
+let vehicle = prompt ("Please enter a mode of transportation (e.g. plane, boat, etc.).", "zeppelin");
 
-// TODO: A variable named "authorName" for authorial attribution.
-let authorName = prompt("What is your full name?");
+let vehiclePart = prompt("Please enter a part of the vehicle you just named.", "hydrogen");
 
-// TODO: A variable named "adjective1" for a word used to describe something.
+let parking = prompt("Please enter a location where you park the vehicle you just named.", "hanger");
 
-let adjective1 = prompt("Please enter an adjective");
-// TODO: A variable named "vehicle" for a mode of transportation (e.g. plane, boat, etc.)
-let vehicle = prompt ("Please enter a mode of transportation (e.g. plane, boat, etc.).");
+let precious = prompt("Please enter a precious object.", "ring");
 
-// TODO: A variable named "vehiclePart" for a part of the vehicle you just named.
-let vehiclePart = prompt("Please enter a part of the vehicle you just named.");
+let noiseMaker = prompt("Please enter a word for something that makes a sound.", "roar");
 
-// TODO: A variable named "parking" for a location where you park the vehicle you just named.
-let parking = prompt("Please enter a location where you park the vehicle you just named.");
+let crowdBehavior = prompt("Please enter a word for something that people do together as a group", "journey");
 
-// TODO: A variable named "precious" for a precious object.
-let precious = prompt("Please enter a precious object.");
+let adjective2 = prompt("Please enter another adjective", "strong");
 
-// TODO: A variable named "noiseMaker" for something that makes a sound.
-let noiseMaker = prompt("Please enter a word for something that makes a sound.");
+let adjective3 = prompt("Please enter yet another adjective", "brave");
 
-// TODO: A variable named "crowdBehavior" for something that people do together as a group
-let crowdBehavior = prompt("Please enter a word for something that people do together as a group");
+let color = prompt("Please enter a color", "green");
 
-// TODO: A variable named "adjective2" for a word used to describe something.
-let adjective2 = prompt("Please enter another adjective");
+let familyMember = prompt("Please enter a word for the name of a family relationship (e.g. sister, father, etc.).", "Uncle");
 
-// TODO: A variable named "adjective3" for a word used to describe something.
-let adjective3 = prompt("Please enter yet another adjective");
+let organ = prompt("Please enter the name of a body organ (e.g. heart, liver, spleen, etc.).", "heart");
 
-// TODO: A variable named "color" for the name of a color.
-let color = prompt("Please enter a color");
+let bodyPart1 = prompt("Please enter the name of a body part.", "hands");
 
-// TODO: A variable named "familyMember" for the name of a family relationship (e.g. sister, father, etc.).
-let familyMember = prompt("Please enter a word for the name of a family relationship (e.g. sister, father, etc.).");
+let bodyPart2 = prompt("Please enter the name of yet another body part.", "feet");
 
-// TODO: A variable named "organ" for the name of a body organ (e.g. heart, liver, spleen, etc.).
+let bodyPart3 = prompt("Please enter a third body part.", "nose");
 
-let organ = prompt("Please enter the name of a body organ (e.g. heart, liver, spleen, etc.).");
-// TODO: A variable named "bodyPart1" for the name of a body part.
-let bodyPart1 = prompt("Please enter the name of a body part.");
+let thing = prompt("Please enter a word for any object.", "mountain");
 
-// TODO: A variable named "bodyPart2" for the name of a body part.
-let bodyPart2 = prompt("Please enter the name of yet another body part.");
+let thing2 = prompt("Please enter an object you might give somebody you love.", "a hand-knit sweater");
 
-// TODO: A variable named "bodyPart3" for the name of a body part.
-let bodyPart3 = prompt("Please enter a third body part.");
+let thing3 = prompt("Please enter an object you might give somebody you like.", "chocolate");
 
-// TODO: A variable named "thing" for an object.
-let thing = prompt("Please enter a word for any object.");
+let adjective4 = prompt("Please enter an adjective to describe your vehicle", "small");
 
-// TODO: A variable named "thing2" for an object you might give somebody you love.
-let thing2 = prompt("Please enter an object you might give somebody you love.");
-
-// TODO: A variable named "thing3" for an object you might give somebody you like.
-
-let thing3 = prompt("Please enter an object you might give somebody you like.");
-// TODO: A variable named "adjective4" for a word used to describe the vehicle.
-let adjective4 = prompt("Please enter an adjective to describe your vehicle");
-
-// TODO: A variable named "adjective5" for a word used to describe the vehicle.
-let adjective5 = prompt("Please enter another adjective to describe your vehicle");
+let adjective5 = prompt("Please enter another adjective to describe your vehicle", "shiny");
 
 
 ////////////////////////////////////////////////////////////////////////
@@ -78,18 +54,12 @@ let adjective5 = prompt("Please enter another adjective to describe your vehicle
 // The poem we are using has section numbers. Let's allow the user to
 // generate their own.
 //
-// TODO: To begin with, prompt the user to collect their favorite number that is not zero.
-// Call this variable "userNumber".
-let userNumber = prompt("Please enter your favorite non-zero number");
 
-// TODO: generate TWO more numbers called "number2" and "number 3".
-// Use any operator you would like to add, multiply, divide, or otherwise
-// change the number that the user submitted.
+let userNumber = prompt("Please enter your favorite non-zero number", 7);
 number2 = userNumber * 3;
 number3 = userNumber + 9;
 
-// DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
-//
+
 // The code below his line handles variable replacement into the HTML file.
 // Please do not edit this code unless you are attempting a stretch goal.
 
